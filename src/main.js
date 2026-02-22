@@ -69,6 +69,7 @@ async function handleSubmit(event) {
 
 async function onLoadMore() {
   currentPage += 1;
+  hideLoadMoreButton();
   showLoader();
 
   try {
