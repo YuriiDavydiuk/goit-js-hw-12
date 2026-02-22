@@ -149,3 +149,21 @@ button:active {
 .loader.is-visible {
   display: block;
 }
+
+.js-load-more.is-hidden {
+  display: none;
+}
+
+.js-load-more {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 18px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5a73f2;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s;
+  white-space: nowrap;
+}
